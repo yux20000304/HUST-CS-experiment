@@ -1,0 +1,28 @@
+<!-- home.wxml -->
+
+  <!-- <image class='header-bg' src = '../image/mine.png'></image> -->
+  <view class="choose">
+    <view class="choose1">
+      <button bindtap="jumpadd">
+        <text class="word">加 
+</text> </button>
+      <button bindtap="jumpsub">
+        <text class="word">减</text>
+      </button>
+    </view>
+    <view class="choose1">
+      <button bindtap="jumpmul">
+        <text class="word">乘</text>
+      </button>
+      <button bindtap="jumpdiv">
+        <text class="word">除</text>
+      </button>
+    </view>
+    <view class="choose2">
+      <button bindtap="jumpmix">
+      <text class="word">混合</text>
+    </button>
+
+    </view>
+    
+</view>

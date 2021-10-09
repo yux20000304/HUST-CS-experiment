@@ -1,0 +1,9 @@
+<!--pages/diff/diff.wxml-->
+<view class="container">
+<!-- <image src="../image/LOL1.jpg" mode="scaleToFill"></image> -->
+<view class="btchoose">
+<button class="easy" bindtap = "easy">简单</button>
+<button class="normal" bindtap = "normal">普通</button>
+<button class="hard" bindtap = "hard">困难</button>
+</view>
+</view>

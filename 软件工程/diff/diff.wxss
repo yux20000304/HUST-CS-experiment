@@ -1,0 +1,43 @@
+/* pages/diff/diff.wxss */
+
+button {
+  border: none;
+  font-size: 80rpx;
+  width: 400rpx;
+  height: 240rpx;
+  color: #f9c198;
+  margin-bottom: 60rpx;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  background-color: #aa6533;
+}
+
+/* .btchoose{
+  height: 700rpx;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: space-around;
+} */
+.easy {
+  background-color: #844313;
+}
+.normal {
+  background-color: #844313;
+}
+.hard {
+  background-color: #844313;
+}
+

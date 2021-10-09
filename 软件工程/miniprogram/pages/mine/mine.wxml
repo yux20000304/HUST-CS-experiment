@@ -1,0 +1,20 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <button wx:if="{{!haslogged}}" size="mini" open-type="getUserInfo" bindgetuserinfo="hdlclick" class="login">
+  <text>微信一键登录</text>
+  </button>
+  <view class="message">
+    <image src="{{userInfo.avatarUrl}}" wx:if="{{haslogged}}" class="Avatar"></image>
+    <text wx:if="{{haslogged}}">{{userInfo.nickName}}</text>
+      <text wx:if="{{haslogged}}"  wx:for ="{{score}}" wx:key="key" >我的积分:{{item.score}}</text>
+  </view>
+
+  <button wx:if="{{haslogged}}" bindtap="searchScore">查询积分</button>
+
+<!-- <block wx:for ="{{score}}" wx:key="key">
+/><text>{{item.score}}</text>
+</block> -->
+
+  <button wx:if="{{haslogged}}" bindtap="exit">退出登录</button>
+    <!-- <button wx:if="{{haslogged}}" bindtap="update" >上传积分</button> -->
+</view>

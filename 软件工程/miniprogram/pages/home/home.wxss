@@ -1,0 +1,38 @@
+.choose1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 150rpx;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 150rpx;
+  width: 300rpx;
+  background-color: #19195c;
+
+}
+
+.choose {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  background-color: #303070;
+}
+
+
+
+
+.word {
+  border: none;
+  z-index: auto;
+  font-size: 60rpx;
+  color: #7474af;
+}

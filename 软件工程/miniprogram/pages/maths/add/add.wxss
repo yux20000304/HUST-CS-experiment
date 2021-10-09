@@ -1,0 +1,50 @@
+/* pages/maths/add/add.wxss */
+.prb {
+  flex-direction: row;
+}
+
+button {
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  font-size: 70rpx;
+  background-color: #9f3761;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #e092b1;
+}
+
+.shuanshi {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+text {
+  font-size: 70rpx;
+  word-break: keep-all;
+}
+
+.inputV {
+  width: 100vw;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #edbbd0;
+  align-items: center;
+}
+
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

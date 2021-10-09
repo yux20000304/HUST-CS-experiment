@@ -1,0 +1,40 @@
+/* pages/mine/mine.wxss */
+.Avatar{
+  display: flex;
+  width: 128rpx;
+  height: 128rpx;
+   margin: 20rpx auto; 
+  border-radius: 50%;
+  align-items: space-between;
+}
+
+.nickName{
+  display: block;
+  color : #aaa;
+  margin: 20rpx auto; 
+  justify-content: space-between;
+}
+
+.login{
+  width : 80%;
+  height : 100rpx;
+  align-content: center;
+  justify-content: center;
+}
+.container{
+  height: 1100rpx;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+text{
+    font-size: 40rpx;
+  color:  rgb(148, 9, 118);
+}

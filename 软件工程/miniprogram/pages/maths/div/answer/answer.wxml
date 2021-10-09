@@ -1,0 +1,9 @@
+<!--pages/maths/div/answer/answer.wxml-->
+<view class="container">
+  <view>
+    <text wx:if="{{!answer}}">回答错误，正确答案是：{{result}}</text>
+    <text wx:elif="{{answer}}"> 回答正确 </text>
+  </view>
+  <button bindtap="jmp" wx:if="{{cnt < maxtime}}"><text>继续答题</text></button>
+  <button bindtap="jmphome" ><text class="back">回到首页</text></button>
+</view>

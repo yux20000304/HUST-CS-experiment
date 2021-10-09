@@ -1,0 +1,57 @@
+{
+  "usingComponents": {
+    "van-card": "vant-weapp/card",
+    "van-panel": "vant-weapp/panel",
+    "van-field": "vant-weapp/field",
+    "van-transition": "vant-weapp/transition"
+  },
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/diff/diff",
+    "pages/list/list",
+
+    
+    "pages/maths/mix/mix",
+    "pages/maths/mix/answer/answer",
+    "pages/maths/add/add",
+    "pages/maths/add/answer/answer",
+    "pages/maths/sub/sub",
+    "pages/maths/sub/answer/answer",
+    "pages/maths/mul/mul",
+    "pages/maths/mul/answer/answer",
+    "pages/maths/div/div",
+    "pages/maths/div/answer/answer"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7474af",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "口算大闯关",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#19195c",
+    "backgroundColor": "#7474af",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "pages/image/PNG/home2.png",
+      "selectedIconPath": "pages/image/PNG/home2.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "pages/image/PNG/old2.png",
+      "selectedIconPath": "pages/image/PNG/old2.png"
+      
+    },
+        {
+          "pagePath": "pages/list/list",
+          "text": "排行榜",
+          "iconPath": "pages/image/PNG/paragraph5.png",
+          "selectedIconPath": "pages/image/PNG/paragraph5.png"
+        }]  
+  },
+  "sitemapLocation": "sitemap27.json"
+}

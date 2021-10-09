@@ -1,0 +1,20 @@
+<!--pages/maths/mix/mix.wxml-->
+
+<view class="container">
+  <view class="clock">
+    <text>当前题目：{{counter}}/{{maxtime}}</text>
+  </view>
+  <view class="clock">
+    <text>倒计时：{{countDownNum}}</text>
+  </view>
+  <view class="shuanshi">
+    <text wx:for="{{eql}}" wx:key="index">{{item}}</text>
+    <text> =?</text>
+  </view>
+  <view class="inputV">
+    <input type="time" bindinput="InputValue" maxlength="10" placeholder="请输入答案"></input>
+  </view>
+  <button bindtap="SURE" class="button">
+    <text>提交</text>
+  </button>
+</view>

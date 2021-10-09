@@ -1,0 +1,22 @@
+/* pages/maths/sub/answer/answer.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #e092b1;
+}
+text{
+  font-size: 70rpx;
+  word-break: keep-all;
+}
+button{
+  width: 50vw;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  font-size: 40rpx;
+  background-color: #9f3761;
+  text-align: center;
+}
