@@ -1,0 +1,2414 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite_(0)" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>C:\Users\admin\Desktop\java学习材料\U201814655-CS1806-杨雨鑫-第六次作业\AutoTest_update3\testng2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite_(0)" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite_(0)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods,   51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite_(0)" class="hide-methods passed suite-All_Test_Suite_(0)"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite_(0) -->
+                      <a href="#" panel-name="suite-All_Test_Suite_(0)" class="show-methods passed suite-All_Test_Suite_(0)"> (show)</a> <!-- show-methods passed suite-All_Test_Suite_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite_(0)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testGetAge">testGetAge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testGetClassNo(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704)">testGetClassNo(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testGetCourseName(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testGetCourseName(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testGetDepartment(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS)">testGetDepartment(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testGetEmail(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com)">testGetEmail(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testGetFacultyId(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111)">testGetFacultyId(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testGetName">testGetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testGetNumberOfStudent(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testGetNumberOfStudent(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testGetStudentId(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101)">testGetStudentId(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testGetStudents(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testGetStudents(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testGetTeacher(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testGetTeacher(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testGetTitle(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor)">testGetTitle(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testRegister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testRegister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testSetAge">testSetAge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testSetClassNo(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704)">testSetClassNo(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testSetDepartment(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE)">testSetDepartment(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testSetEmail(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com)">testSetEmail(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testSetFacultyId(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112)">testSetFacultyId(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testSetName">testSetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testSetStudentId(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102)">testSetStudentId(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testSetTitle(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer)">testSetTitle(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testTestClone">testTestClone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestClone(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null)">testTestClone(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestClone(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null)">testTestClone(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestClone(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testTestClone(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testTestEquals">testTestEquals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704depa...)">testTestEquals([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704depa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)">testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704d...)">testTestEquals([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)">testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId:...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112t...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111t...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 199800...)">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 199800...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.PersonTest" class="method navigator-link" hash-for-method="testTestToString">testTestToString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.StudentTest" class="method navigator-link" hash-for-method="testTestToString(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704])">testTestToString(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.FacultyTest" class="method navigator-link" hash-for-method="testTestToString(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Profes...)">testTestToString(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Profes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testTestToString(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@q...)">testTestToString(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@q...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(0)" title="homework.ch11_13.CourseTest" class="method navigator-link" hash-for-method="testUnregister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">testUnregister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite_(1)" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite (1)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>C:\Users\admin\Desktop\java学习材料\U201814655-CS1806-杨雨鑫-第六次作业\AutoTest_update3\testng3.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite_(1)" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite_(1)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite_(1)" class="hide-methods passed suite-All_Test_Suite_(1)"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite_(1) -->
+                      <a href="#" panel-name="suite-All_Test_Suite_(1)" class="show-methods passed suite-All_Test_Suite_(1)"> (show)</a> <!-- show-methods passed suite-All_Test_Suite_(1) -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite_(1)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testAdd(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">testAdd(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testAdd(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">testAdd(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testAdd(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 ...)">testAdd(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testAdd(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)">testAdd(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testCalcPrice(id: 6name: root price: 100.0, 0.0)">testCalcPrice(id: 6name: root price: 100.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testCalcPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">testCalcPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testCalcPrice(id: 0name: aaa1 price: 5.0, 5.0)">testCalcPrice(id: 0name: aaa1 price: 5.0, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testCalcPrice(id: 1name: key board price: 5.0, 5.0)">testCalcPrice(id: 1name: key board price: 5.0, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testGetId(id: 1name: key board price: 5.0, 1)">testGetId(id: 1name: key board price: 5.0, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testGetName(id: 1name: key board price: 5.0, key board)">testGetName(id: 1name: key board price: 5.0, key board)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testGetPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">testGetPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testGetPrice(id: 6name: root price: 100.0, 0.0)">testGetPrice(id: 6name: root price: 100.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testGetPrice(id: 0name: aaa1 price: 5.0, 5.0)">testGetPrice(id: 0name: aaa1 price: 5.0, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testGetPrice(id: 1name: key board price: 5.0, 5.0)">testGetPrice(id: 1name: key board price: 5.0, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.ComponentListTest" class="method navigator-link" hash-for-method="testHasNext([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])">testHasNext([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeIteratorTest" class="method navigator-link" hash-for-method="testHasNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">testHasNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.NullIteratorTest" class="method navigator-link" hash-for-method="testHasNext(homework.ch11_13.p4.NullIterator@48fa0f47)">testHasNext(homework.ch11_13.p4.NullIterator@48fa0f47)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testIterator(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator)">testIterator(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testIterator(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator)">testIterator(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.ComponentListTest" class="method navigator-link" hash-for-method="testNext([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, i...)">testNext([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.ComponentListTest" class="method navigator-link" hash-for-method="testNext([], [null])">testNext([], [null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeIteratorTest" class="method navigator-link" hash-for-method="testNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">testNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.NullIteratorTest" class="method navigator-link" hash-for-method="testNext(homework.ch11_13.p4.NullIterator@6ac13091)">testNext(homework.ch11_13.p4.NullIterator@6ac13091)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testRemove(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0])">testRemove(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testRemove(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])">testRemove(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testRemove(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: cc...)">testRemove(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testRemove(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)">testRemove(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testSetId(id: 10name: null price: 0.0, 10)">testSetId(id: 10name: null price: 0.0, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testSetName(id: 0name: key board 1 price: 0.0, key board 1)">testSetName(id: 0name: key board 1 price: 0.0, key board 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testSetPrice(id: 0name: null price: 10.0, 10.0)">testSetPrice(id: 0name: null price: 10.0, 10.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.CompositeComponentTest" class="method navigator-link" hash-for-method="testTestToString(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">testTestToString(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite_(1)" title="homework.ch11_13.AtomicComponentTest" class="method navigator-link" hash-for-method="testTestToString(id: 1name: key board price: 5.0, [1, key board, 5.0])">testTestToString(id: 1name: key board price: 5.0, [1, key board, 5.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite_(1) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="suite-All_Test_Suite_(0)" class="panel All_Test_Suite_(0)">
+          <div class="suite-All_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.PersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAge">
+                  </a> <!-- testGetAge -->
+                  <span class="method-name">testGetAge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetName">
+                  </a> <!-- testGetName -->
+                  <span class="method-name">testGetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetAge">
+                  </a> <!-- testSetAge -->
+                  <span class="method-name">testSetAge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetName">
+                  </a> <!-- testSetName -->
+                  <span class="method-name">testSetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestClone">
+                  </a> <!-- testTestClone -->
+                  <span class="method-name">testTestClone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals">
+                  </a> <!-- testTestEquals -->
+                  <span class="method-name">testTestEquals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString">
+                  </a> <!-- testTestToString -->
+                  <span class="method-name">testTestToString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(0)-class-passed -->
+          <div class="suite-All_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.FacultyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetEmail(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com)">
+                  </a> <!-- testGetEmail(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com) -->
+                  <span class="method-name">testGetEmail</span>
+                  <span class="parameters">(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetFacultyId(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111)">
+                  </a> <!-- testGetFacultyId(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111) -->
+                  <span class="method-name">testGetFacultyId</span>
+                  <span class="parameters">(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTitle(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor)">
+                  </a> <!-- testGetTitle(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor) -->
+                  <span class="method-name">testGetTitle</span>
+                  <span class="parameters">(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetEmail(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com)">
+                  </a> <!-- testSetEmail(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com) -->
+                  <span class="method-name">testSetEmail</span>
+                  <span class="parameters">(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetFacultyId(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112)">
+                  </a> <!-- testSetFacultyId(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112) -->
+                  <span class="method-name">testSetFacultyId</span>
+                  <span class="parameters">(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetTitle(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer)">
+                  </a> <!-- testSetTitle(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer) -->
+                  <span class="method-name">testSetTitle</span>
+                  <span class="parameters">(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestClone(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null)">
+                  </a> <!-- testTestClone(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null) -->
+                  <span class="method-name">testTestClone</span>
+                  <span class="parameters">(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: 1998000111title: nullemail: abc@qq.com], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId:...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId:...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: 1998000111title: Professor1email: abc@qq.com], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112t...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112t...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112title: nullemail: null], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111t...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111t...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111title: nullemail: null], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 199800...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 199800...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Profes...)">
+                  </a> <!-- testTestToString(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Profes...) -->
+                  <span class="method-name">testTestToString</span>
+                  <span class="parameters">(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Professor, abc@qq.com])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(0)-class-passed -->
+          <div class="suite-All_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.StudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetClassNo(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704)">
+                  </a> <!-- testGetClassNo(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704) -->
+                  <span class="method-name">testGetClassNo</span>
+                  <span class="parameters">(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDepartment(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS)">
+                  </a> <!-- testGetDepartment(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS) -->
+                  <span class="method-name">testGetDepartment</span>
+                  <span class="parameters">(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStudentId(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101)">
+                  </a> <!-- testGetStudentId(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101) -->
+                  <span class="method-name">testGetStudentId</span>
+                  <span class="parameters">(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetClassNo(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704)">
+                  </a> <!-- testSetClassNo(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704) -->
+                  <span class="method-name">testSetClassNo</span>
+                  <span class="parameters">(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetDepartment(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE)">
+                  </a> <!-- testSetDepartment(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE) -->
+                  <span class="method-name">testSetDepartment</span>
+                  <span class="parameters">(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetStudentId(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102)">
+                  </a> <!-- testSetStudentId(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102) -->
+                  <span class="method-name">testSetStudentId</span>
+                  <span class="parameters">(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestClone(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null)">
+                  </a> <!-- testTestClone(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null) -->
+                  <span class="method-name">testTestClone</span>
+                  <span class="parameters">(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704depa...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704depa...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704department: nullstudentId: 20170101], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704d...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704d...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704department: CS1studentId: 20170101], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)">
+                  </a> <!-- testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170102], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704])">
+                  </a> <!-- testTestToString(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704]) -->
+                  <span class="method-name">testTestToString</span>
+                  <span class="parameters">(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(0)-class-passed -->
+          <div class="suite-All_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.CourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCourseName(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testGetCourseName(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testGetCourseName</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: , Java Language Programming)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNumberOfStudent(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testGetNumberOfStudent(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testGetNumberOfStudent</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStudents(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testGetStudents(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testGetStudents</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, [name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102, name: cccage: 20classNo: CS1706department: CSstudentId: 20170103])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTeacher(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testGetTeacher(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testGetTeacher</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: , name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testRegister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testRegister</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: , [name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102, name: cccage: 20classNo: CS1706department: CSstudentId: 20170103])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestClone(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testTestClone(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testTestClone</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: ], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: , coursename: Python Language Programmingteacher: name: T2age: 50facultyId: 2title: lectureremail: 456@qq.comstudent: ], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: , coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: ], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103], true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)">
+                  </a> <!-- testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...) -->
+                  <span class="method-name">testTestEquals</span>
+                  <span class="parameters">([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102, coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101], false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@q...)">
+                  </a> <!-- testTestToString(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@q...) -->
+                  <span class="method-name">testTestToString</span>
+                  <span class="parameters">(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@qq.comstudent: name: cccage: 21classNo: CS1705department: CS1studentId: 20170103name: dddage: 22classNo: CS1706department: CS2studentId: 20170104, [C++ Language Programming, name: T1age: 40facultyId: 1title: Professoremail: 123@qq.com, name: cccage: 21classNo: CS1705department: CS1studentId: 20170103, name: dddage: 22classNo: CS1706department: CS2studentId: 20170104])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnregister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)">
+                  </a> <!-- testUnregister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...) -->
+                  <span class="method-name">testUnregister</span>
+                  <span class="parameters">(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professoremail: http://nighthacks.com/jag/bio/index.htmlstudent: name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, [name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: bbbage: 20classNo: CS1705department: CSstudentId: 20170102, name: cccage: 20classNo: CS1706department: CSstudentId: 20170103, name: dddage: 20classNo: CS1706department: CSstudentId: 20170104])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(0)-class-passed -->
+        </div> <!-- panel All_Test_Suite_(0) -->
+        <div panel-name="suite-All_Test_Suite_(1)" class="panel All_Test_Suite_(1)">
+          <div class="suite-All_Test_Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.AtomicComponentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)">
+                  </a> <!-- testAdd(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalcPrice(id: 1name: key board price: 5.0, 5.0)">
+                  </a> <!-- testCalcPrice(id: 1name: key board price: 5.0, 5.0) -->
+                  <span class="method-name">testCalcPrice</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetId(id: 1name: key board price: 5.0, 1)">
+                  </a> <!-- testGetId(id: 1name: key board price: 5.0, 1) -->
+                  <span class="method-name">testGetId</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetName(id: 1name: key board price: 5.0, key board)">
+                  </a> <!-- testGetName(id: 1name: key board price: 5.0, key board) -->
+                  <span class="method-name">testGetName</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, key board)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPrice(id: 1name: key board price: 5.0, 5.0)">
+                  </a> <!-- testGetPrice(id: 1name: key board price: 5.0, 5.0) -->
+                  <span class="method-name">testGetPrice</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIterator(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator)">
+                  </a> <!-- testIterator(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator) -->
+                  <span class="method-name">testIterator</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemove(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)">
+                  </a> <!-- testRemove(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0) -->
+                  <span class="method-name">testRemove</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetId(id: 10name: null price: 0.0, 10)">
+                  </a> <!-- testSetId(id: 10name: null price: 0.0, 10) -->
+                  <span class="method-name">testSetId</span>
+                  <span class="parameters">(id: 10name: null price: 0.0, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetName(id: 0name: key board 1 price: 0.0, key board 1)">
+                  </a> <!-- testSetName(id: 0name: key board 1 price: 0.0, key board 1) -->
+                  <span class="method-name">testSetName</span>
+                  <span class="parameters">(id: 0name: key board 1 price: 0.0, key board 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetPrice(id: 0name: null price: 10.0, 10.0)">
+                  </a> <!-- testSetPrice(id: 0name: null price: 10.0, 10.0) -->
+                  <span class="method-name">testSetPrice</span>
+                  <span class="parameters">(id: 0name: null price: 10.0, 10.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString(id: 1name: key board price: 5.0, [1, key board, 5.0])">
+                  </a> <!-- testTestToString(id: 1name: key board price: 5.0, [1, key board, 5.0]) -->
+                  <span class="method-name">testTestToString</span>
+                  <span class="parameters">(id: 1name: key board price: 5.0, [1, key board, 5.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(1)-class-passed -->
+          <div class="suite-All_Test_Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.ComponentListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHasNext([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])">
+                  </a> <!-- testHasNext([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0]) -->
+                  <span class="method-name">testHasNext</span>
+                  <span class="parameters">([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNext([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, i...)">
+                  </a> <!-- testNext([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, i...) -->
+                  <span class="method-name">testNext</span>
+                  <span class="parameters">([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNext([], [null])">
+                  </a> <!-- testNext([], [null]) -->
+                  <span class="method-name">testNext</span>
+                  <span class="parameters">([], [null])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(1)-class-passed -->
+          <div class="suite-All_Test_Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.CompositeIteratorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHasNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">
+                  </a> <!-- testHasNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...) -->
+                  <span class="method-name">testHasNext</span>
+                  <span class="parameters">(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">
+                  </a> <!-- testNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...) -->
+                  <span class="method-name">testNext</span>
+                  <span class="parameters">(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(1)-class-passed -->
+          <div class="suite-All_Test_Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.CompositeComponentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">
+                  </a> <!-- testAdd(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">
+                  </a> <!-- testAdd(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 ...)">
+                  </a> <!-- testAdd(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 ...) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalcPrice(id: 6name: root price: 100.0, 0.0)">
+                  </a> <!-- testCalcPrice(id: 6name: root price: 100.0, 0.0) -->
+                  <span class="method-name">testCalcPrice</span>
+                  <span class="parameters">(id: 6name: root price: 100.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalcPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">
+                  </a> <!-- testCalcPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...) -->
+                  <span class="method-name">testCalcPrice</span>
+                  <span class="parameters">(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, 55.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalcPrice(id: 0name: aaa1 price: 5.0, 5.0)">
+                  </a> <!-- testCalcPrice(id: 0name: aaa1 price: 5.0, 5.0) -->
+                  <span class="method-name">testCalcPrice</span>
+                  <span class="parameters">(id: 0name: aaa1 price: 5.0, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)">
+                  </a> <!-- testGetPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...) -->
+                  <span class="method-name">testGetPrice</span>
+                  <span class="parameters">(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, 55.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPrice(id: 6name: root price: 100.0, 0.0)">
+                  </a> <!-- testGetPrice(id: 6name: root price: 100.0, 0.0) -->
+                  <span class="method-name">testGetPrice</span>
+                  <span class="parameters">(id: 6name: root price: 100.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPrice(id: 0name: aaa1 price: 5.0, 5.0)">
+                  </a> <!-- testGetPrice(id: 0name: aaa1 price: 5.0, 5.0) -->
+                  <span class="method-name">testGetPrice</span>
+                  <span class="parameters">(id: 0name: aaa1 price: 5.0, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIterator(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator)">
+                  </a> <!-- testIterator(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator) -->
+                  <span class="method-name">testIterator</span>
+                  <span class="parameters">(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemove(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0])">
+                  </a> <!-- testRemove(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0]) -->
+                  <span class="method-name">testRemove</span>
+                  <span class="parameters">(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemove(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])">
+                  </a> <!-- testRemove(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0]) -->
+                  <span class="method-name">testRemove</span>
+                  <span class="parameters">(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemove(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: cc...)">
+                  </a> <!-- testRemove(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: cc...) -->
+                  <span class="method-name">testRemove</span>
+                  <span class="parameters">(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: ccc2 price: 10.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestToString(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)">
+                  </a> <!-- testTestToString(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...) -->
+                  <span class="method-name">testTestToString</span>
+                  <span class="parameters">(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(1)-class-passed -->
+          <div class="suite-All_Test_Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homework.ch11_13.NullIteratorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHasNext(homework.ch11_13.p4.NullIterator@48fa0f47)">
+                  </a> <!-- testHasNext(homework.ch11_13.p4.NullIterator@48fa0f47) -->
+                  <span class="method-name">testHasNext</span>
+                  <span class="parameters">(homework.ch11_13.p4.NullIterator@48fa0f47)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNext(homework.ch11_13.p4.NullIterator@6ac13091)">
+                  </a> <!-- testNext(homework.ch11_13.p4.NullIterator@6ac13091) -->
+                  <span class="method-name">testNext</span>
+                  <span class="parameters">(homework.ch11_13.p4.NullIterator@6ac13091)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite_(1)-class-passed -->
+        </div> <!-- panel All_Test_Suite_(1) -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\Desktop\java学习材料\U201814655-CS1806-杨雨鑫-第六次作业\AutoTest_update3\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;testng2.xml&quot;/&gt;
+    &lt;suite-file path=&quot;testng3.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\Desktop\java学习材料\U201814655-CS1806-杨雨鑫-第六次作业\AutoTest_update3\testng2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite (0)&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.PersonTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetName&quot;/&gt;
+          &lt;include name=&quot;testSetName&quot;/&gt;
+          &lt;include name=&quot;testGetAge&quot;/&gt;
+          &lt;include name=&quot;testSetAge&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testTestEquals&quot;/&gt;
+          &lt;include name=&quot;testTestClone&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.PersonTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.StudentTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetStudentId&quot;/&gt;
+          &lt;include name=&quot;testSetStudentId&quot;/&gt;
+          &lt;include name=&quot;testGetDepartment&quot;/&gt;
+          &lt;include name=&quot;testSetDepartment&quot;/&gt;
+          &lt;include name=&quot;testGetClassNo&quot;/&gt;
+          &lt;include name=&quot;testSetClassNo&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testTestEquals&quot;/&gt;
+          &lt;include name=&quot;testTestClone&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.StudentTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.FacultyTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetFacultyId&quot;/&gt;
+          &lt;include name=&quot;testSetFacultyId&quot;/&gt;
+          &lt;include name=&quot;testGetTitle&quot;/&gt;
+          &lt;include name=&quot;testSetTitle&quot;/&gt;
+          &lt;include name=&quot;testGetEmail&quot;/&gt;
+          &lt;include name=&quot;testSetEmail&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testTestEquals&quot;/&gt;
+          &lt;include name=&quot;testTestClone&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.FacultyTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.CourseTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testRegister&quot;/&gt;
+          &lt;include name=&quot;testGetCourseName&quot;/&gt;
+          &lt;include name=&quot;testGetStudents&quot;/&gt;
+          &lt;include name=&quot;testGetTeacher&quot;/&gt;
+          &lt;include name=&quot;testUnregister&quot;/&gt;
+          &lt;include name=&quot;testGetNumberOfStudent&quot;/&gt;
+          &lt;include name=&quot;testTestClone&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testTestEquals&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.CourseTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\Desktop\java学习材料\U201814655-CS1806-杨雨鑫-第六次作业\AutoTest_update3\testng3.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite (1)&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.CompositeComponentTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetPrice&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testAdd&quot;/&gt;
+          &lt;include name=&quot;testRemove&quot;/&gt;
+          &lt;include name=&quot;testCalcPrice&quot;/&gt;
+          &lt;include name=&quot;testIterator&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.CompositeComponentTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.AtomicComponentTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetId&quot;/&gt;
+          &lt;include name=&quot;testSetId&quot;/&gt;
+          &lt;include name=&quot;testGetName&quot;/&gt;
+          &lt;include name=&quot;testSetName&quot;/&gt;
+          &lt;include name=&quot;testGetPrice&quot;/&gt;
+          &lt;include name=&quot;testSetPrice&quot;/&gt;
+          &lt;include name=&quot;testTestToString&quot;/&gt;
+          &lt;include name=&quot;testAdd&quot;/&gt;
+          &lt;include name=&quot;testRemove&quot;/&gt;
+          &lt;include name=&quot;testCalcPrice&quot;/&gt;
+          &lt;include name=&quot;testIterator&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.AtomicComponentTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.ComponentListTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testHasNext&quot;/&gt;
+          &lt;include name=&quot;testNext&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.ComponentListTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.CompositeIteratorTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testHasNext&quot;/&gt;
+          &lt;include name=&quot;testNext&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.CompositeIteratorTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/NullIteratorTest.java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homework.ch11_13.NullIteratorTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testHasNext&quot;/&gt;
+          &lt;include name=&quot;testNext&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- homework.ch11_13.NullIteratorTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/NullIteratorTest.java --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite (1) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/NullIteratorTest.java (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite_(0)');
+function tableData_All_Test_Suite_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetName')
+data.setCell(0, 2, 'homework.ch11_13.PersonTest')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTestToString')
+data.setCell(1, 2, 'homework.ch11_13.StudentTest')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testTestToString')
+data.setCell(2, 2, 'homework.ch11_13.PersonTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testTestToString')
+data.setCell(3, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testTestToString')
+data.setCell(4, 2, 'homework.ch11_13.CourseTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetStudentId')
+data.setCell(5, 2, 'homework.ch11_13.StudentTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testTestEquals')
+data.setCell(6, 2, 'homework.ch11_13.StudentTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSetEmail')
+data.setCell(7, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTestEquals')
+data.setCell(8, 2, 'homework.ch11_13.PersonTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSetAge')
+data.setCell(9, 2, 'homework.ch11_13.PersonTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSetName')
+data.setCell(10, 2, 'homework.ch11_13.PersonTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTestClone')
+data.setCell(11, 2, 'homework.ch11_13.PersonTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetAge')
+data.setCell(12, 2, 'homework.ch11_13.PersonTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSetDepartment')
+data.setCell(13, 2, 'homework.ch11_13.StudentTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSetClassNo')
+data.setCell(14, 2, 'homework.ch11_13.StudentTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testTestEquals')
+data.setCell(15, 2, 'homework.ch11_13.StudentTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testTestEquals')
+data.setCell(16, 2, 'homework.ch11_13.StudentTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSetStudentId')
+data.setCell(17, 2, 'homework.ch11_13.StudentTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetClassNo')
+data.setCell(18, 2, 'homework.ch11_13.StudentTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetDepartment')
+data.setCell(19, 2, 'homework.ch11_13.StudentTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testTestClone')
+data.setCell(20, 2, 'homework.ch11_13.StudentTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testTestEquals')
+data.setCell(21, 2, 'homework.ch11_13.StudentTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testTestEquals')
+data.setCell(22, 2, 'homework.ch11_13.StudentTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testTestEquals')
+data.setCell(23, 2, 'homework.ch11_13.StudentTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testTestEquals')
+data.setCell(24, 2, 'homework.ch11_13.StudentTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testTestEquals')
+data.setCell(25, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testTestEquals')
+data.setCell(26, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testGetTitle')
+data.setCell(27, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testSetFacultyId')
+data.setCell(28, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testTestEquals')
+data.setCell(29, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testGetFacultyId')
+data.setCell(30, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSetTitle')
+data.setCell(31, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testTestEquals')
+data.setCell(32, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testTestClone')
+data.setCell(33, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testGetEmail')
+data.setCell(34, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testTestEquals')
+data.setCell(35, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testTestEquals')
+data.setCell(36, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testTestEquals')
+data.setCell(37, 2, 'homework.ch11_13.FacultyTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testGetCourseName')
+data.setCell(38, 2, 'homework.ch11_13.CourseTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testTestEquals')
+data.setCell(39, 2, 'homework.ch11_13.CourseTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testRegister')
+data.setCell(40, 2, 'homework.ch11_13.CourseTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testTestEquals')
+data.setCell(41, 2, 'homework.ch11_13.CourseTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testTestEquals')
+data.setCell(42, 2, 'homework.ch11_13.CourseTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testGetStudents')
+data.setCell(43, 2, 'homework.ch11_13.CourseTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testTestClone')
+data.setCell(44, 2, 'homework.ch11_13.CourseTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testTestEquals')
+data.setCell(45, 2, 'homework.ch11_13.CourseTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testTestEquals')
+data.setCell(46, 2, 'homework.ch11_13.CourseTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testTestEquals')
+data.setCell(47, 2, 'homework.ch11_13.CourseTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testGetTeacher')
+data.setCell(48, 2, 'homework.ch11_13.CourseTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testUnregister')
+data.setCell(49, 2, 'homework.ch11_13.CourseTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testGetNumberOfStudent')
+data.setCell(50, 2, 'homework.ch11_13.CourseTest')
+data.setCell(50, 3, 0);
+window.suiteTableData['All_Test_Suite_(0)']= { tableData: data, tableDiv: 'times-div-All_Test_Suite_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 ms</span>
+              <div id="times-div-All_Test_Suite_(0)">
+              </div> <!-- times-div-All_Test_Suite_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite_(1)');
+function tableData_All_Test_Suite_(1)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAdd')
+data.setCell(0, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNext')
+data.setCell(1, 2, 'homework.ch11_13.NullIteratorTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetPrice')
+data.setCell(2, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCalcPrice')
+data.setCell(3, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testTestToString')
+data.setCell(4, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRemove')
+data.setCell(5, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testIterator')
+data.setCell(6, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAdd')
+data.setCell(7, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCalcPrice')
+data.setCell(8, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRemove')
+data.setCell(9, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCalcPrice')
+data.setCell(10, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRemove')
+data.setCell(11, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetPrice')
+data.setCell(12, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGetPrice')
+data.setCell(13, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAdd')
+data.setCell(14, 2, 'homework.ch11_13.CompositeComponentTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testIterator')
+data.setCell(15, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAdd')
+data.setCell(16, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSetPrice')
+data.setCell(17, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testTestToString')
+data.setCell(18, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRemove')
+data.setCell(19, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSetName')
+data.setCell(20, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCalcPrice')
+data.setCell(21, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGetPrice')
+data.setCell(22, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGetName')
+data.setCell(23, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSetId')
+data.setCell(24, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testGetId')
+data.setCell(25, 2, 'homework.ch11_13.AtomicComponentTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testHasNext')
+data.setCell(26, 2, 'homework.ch11_13.ComponentListTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNext')
+data.setCell(27, 2, 'homework.ch11_13.ComponentListTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testNext')
+data.setCell(28, 2, 'homework.ch11_13.ComponentListTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testNext')
+data.setCell(29, 2, 'homework.ch11_13.CompositeIteratorTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testHasNext')
+data.setCell(30, 2, 'homework.ch11_13.CompositeIteratorTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testHasNext')
+data.setCell(31, 2, 'homework.ch11_13.NullIteratorTest')
+data.setCell(31, 3, 0);
+window.suiteTableData['All_Test_Suite_(1)']= { tableData: data, tableDiv: 'times-div-All_Test_Suite_(1)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-All_Test_Suite_(1)">
+              </div> <!-- times-div-All_Test_Suite_(1) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.PersonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetName</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetName</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetAge</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetAge</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestClone</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.StudentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetStudentId(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, 20170101)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetStudentId(name: nullage: 0classNo: nulldepartment: nullstudentId: 20170102, 20170102)</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDepartment(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS)</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetDepartment(name: nullage: 0classNo: nulldepartment: EEstudentId: 0, EE)</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetClassNo(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, CS1704)</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetClassNo(name: nullage: 0classNo: CS1704department: nullstudentId: 0, CS1704)</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, [aaa, 20, 20170101, CS, CS1704])</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: nulldepartment: nullstudentId: 20170101, name: aaaage: 20classNo: nulldepa...)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704de...)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: nulldepartment: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704depa...)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20classNo: CS17041department: CSstudentId: 20170101, name: aaaage: 20classNo: CS1704d...)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestClone(name: aaaage: 20classNo: CS1704department: CSstudentId: 20170101, null)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.FacultyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetFacultyId(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, 1998000111)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetFacultyId(name: nullage: 0facultyId: 1998000112title: nullemail: null, 1998000112)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTitle(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, Professor)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetTitle(name: nullage: 0facultyId: 0title: Lectureremail: null, Lecturer)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetEmail(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, abc@qq.com)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetEmail(name: nullage: 0facultyId: 0title: nullemail: 123@qq.com, 123@qq.com)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, [aaa, 20, 1998000111, Profes...)</span>
+                <span class="method-start">73 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000111t...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: nullemail: null, name: aaaage: 20facultyId: 1998000112t...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, name: aaaage: 20facultyId: ...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: null, name: aaaage: 20facultyId: 199800...)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com1, name: aaaage: 20facultyId:...)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestClone(name: aaaage: 20facultyId: 1998000111title: Professoremail: abc@qq.com, null)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.CourseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetCourseName(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetStudents(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTeacher(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUnregister(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNumberOfStudent(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestClone(coursename: Java Language Programmingteacher: name: James Goslingage: 65facultyId: 0title: Professor...)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString(coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@q...)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestEquals([coursename: C++ Language Programmingteacher: name: T1age: 40facultyId: 1title: Professoremail: 123@...)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.CompositeComponentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetPrice(id: 0name: aaa1 price: 5.0, 5.0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPrice(id: 6name: root price: 100.0, 0.0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(id: 5name: ccc2 price: 10.0id: 2name: aaa3 price: 15.0id: 3name: aaa4 price: 25.0, [id: 2name: aaa3 ...)</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemove(id: 5name: ccc2 price: 10.0, [id: 2name: aaa3 price: 15.0, id: 3name: aaa4 price: 25.0])</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemove(id: 4name: ccc1 price: 10.0, [id: 0name: aaa1 price: 5.0, id: 1name: aaa2 price: 10.0, id: 5name: cc...)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemove(id: 6name: root price: 100.0, [id: 4name: ccc1 price: 10.0])</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalcPrice(id: 0name: aaa1 price: 5.0, 5.0)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalcPrice(id: 6name: root price: 100.0, 0.0)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalcPrice(id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 price: 10.0id: 5name: ccc2 pric...)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIterator(id: 4name: ccc1 price: 10.0, class homework.ch11_13.p4.CompositeIterator)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.AtomicComponentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetId(id: 1name: key board price: 5.0, 1)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetId(id: 10name: null price: 0.0, 10)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetName(id: 1name: key board price: 5.0, key board)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetName(id: 0name: key board 1 price: 0.0, key board 1)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPrice(id: 1name: key board price: 5.0, 5.0)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetPrice(id: 0name: null price: 10.0, 10.0)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTestToString(id: 1name: key board price: 5.0, [1, key board, 5.0])</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemove(id: 1name: key board price: 5.0, id: 1name: key board price: 5.0)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalcPrice(id: 1name: key board price: 5.0, 5.0)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIterator(id: 1name: key board price: 5.0, class homework.ch11_13.p4.NullIterator)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.ComponentListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHasNext([], [id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0])</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNext([], [null])</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNext([id: 1name: key board price: 1.0, id: 2name: mouse  price: 5.0], [id: 1name: key board price: 1.0, i...)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.CompositeIteratorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHasNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNext(id: 6name: root price: 100.0id: 4name: ccc1 price: 10.0id: 0name: aaa1 price: 5.0id: 1name: aaa2 pri...)</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homework.ch11_13.NullIteratorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHasNext(homework.ch11_13.p4.NullIterator@48fa0f47)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNext(homework.ch11_13.p4.NullIterator@6ac13091)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
