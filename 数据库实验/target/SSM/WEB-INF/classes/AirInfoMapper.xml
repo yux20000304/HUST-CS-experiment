@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="yyx.dao.AirInfoMapper">
+  <resultMap id="BaseResultMap" type="yyx.entity.AirInfo">
+    <id column="id" jdbcType="CHAR" property="id" />
+    <result column="Takeoff_time" jdbcType="TIMESTAMP" property="takeoffTime" />
+    <result column="Arrive_time" jdbcType="TIMESTAMP" property="arriveTime" />
+    <result column="origin_stat" jdbcType="CHAR" property="originStat" />
+    <result column="Term_stat" jdbcType="CHAR" property="termStat" />
+    <result column="price" jdbcType="INTEGER" property="price" />
+    <result column="bookedseats" jdbcType="INTEGER" property="bookedseats" />
+    <result column="totalseats" jdbcType="INTEGER" property="totalseats" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, Takeoff_time, Arrive_time, origin_stat, Term_stat, price, bookedseats, totalseats
+  </sql>
+  <select id="selectByExample" parameterType="yyx.entity.AirInfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from air_info
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from air_info
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from air_info
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="yyx.entity.AirInfoExample">
+    delete from air_info
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="yyx.entity.AirInfo">
+    insert into air_info (id, Takeoff_time, Arrive_time, 
+      origin_stat, Term_stat, price, 
+      bookedseats, totalseats)
+    values (#{id,jdbcType=CHAR}, #{takeoffTime,jdbcType=TIMESTAMP}, #{arriveTime,jdbcType=TIMESTAMP}, 
+      #{originStat,jdbcType=CHAR}, #{termStat,jdbcType=CHAR}, #{price,jdbcType=INTEGER}, 
+      #{bookedseats,jdbcType=INTEGER}, #{totalseats,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="yyx.entity.AirInfo">
+    insert into air_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="takeoffTime != null">
+        Takeoff_time,
+      </if>
+      <if test="arriveTime != null">
+        Arrive_time,
+      </if>
+      <if test="originStat != null">
+        origin_stat,
+      </if>
+      <if test="termStat != null">
+        Term_stat,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="bookedseats != null">
+        bookedseats,
+      </if>
+      <if test="totalseats != null">
+        totalseats,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="takeoffTime != null">
+        #{takeoffTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="arriveTime != null">
+        #{arriveTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="originStat != null">
+        #{originStat,jdbcType=CHAR},
+      </if>
+      <if test="termStat != null">
+        #{termStat,jdbcType=CHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=INTEGER},
+      </if>
+      <if test="bookedseats != null">
+        #{bookedseats,jdbcType=INTEGER},
+      </if>
+      <if test="totalseats != null">
+        #{totalseats,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="yyx.entity.AirInfoExample" resultType="java.lang.Long">
+    select count(*) from air_info
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update air_info
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=CHAR},
+      </if>
+      <if test="record.takeoffTime != null">
+        Takeoff_time = #{record.takeoffTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.arriveTime != null">
+        Arrive_time = #{record.arriveTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.originStat != null">
+        origin_stat = #{record.originStat,jdbcType=CHAR},
+      </if>
+      <if test="record.termStat != null">
+        Term_stat = #{record.termStat,jdbcType=CHAR},
+      </if>
+      <if test="record.price != null">
+        price = #{record.price,jdbcType=INTEGER},
+      </if>
+      <if test="record.bookedseats != null">
+        bookedseats = #{record.bookedseats,jdbcType=INTEGER},
+      </if>
+      <if test="record.totalseats != null">
+        totalseats = #{record.totalseats,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update air_info
+    set id = #{record.id,jdbcType=CHAR},
+      Takeoff_time = #{record.takeoffTime,jdbcType=TIMESTAMP},
+      Arrive_time = #{record.arriveTime,jdbcType=TIMESTAMP},
+      origin_stat = #{record.originStat,jdbcType=CHAR},
+      Term_stat = #{record.termStat,jdbcType=CHAR},
+      price = #{record.price,jdbcType=INTEGER},
+      bookedseats = #{record.bookedseats,jdbcType=INTEGER},
+      totalseats = #{record.totalseats,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="yyx.entity.AirInfo">
+    update air_info
+    <set>
+      <if test="takeoffTime != null">
+        Takeoff_time = #{takeoffTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="arriveTime != null">
+        Arrive_time = #{arriveTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="originStat != null">
+        origin_stat = #{originStat,jdbcType=CHAR},
+      </if>
+      <if test="termStat != null">
+        Term_stat = #{termStat,jdbcType=CHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=INTEGER},
+      </if>
+      <if test="bookedseats != null">
+        bookedseats = #{bookedseats,jdbcType=INTEGER},
+      </if>
+      <if test="totalseats != null">
+        totalseats = #{totalseats,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="yyx.entity.AirInfo">
+    update air_info
+    set Takeoff_time = #{takeoffTime,jdbcType=TIMESTAMP},
+      Arrive_time = #{arriveTime,jdbcType=TIMESTAMP},
+      origin_stat = #{originStat,jdbcType=CHAR},
+      Term_stat = #{termStat,jdbcType=CHAR},
+      price = #{price,jdbcType=INTEGER},
+      bookedseats = #{bookedseats,jdbcType=INTEGER},
+      totalseats = #{totalseats,jdbcType=INTEGER}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>
