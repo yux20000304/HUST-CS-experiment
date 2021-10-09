@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1976</width>
+    <height>1179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="cpu_rate">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>491</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="label_CurrentTime">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>501</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_RAM">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>660</y>
+      <width>361</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_INFO">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>521</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="list">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_runningtime">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>130</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_hostname">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>260</y>
+      <width>291</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_boottime">
+    <property name="geometry">
+     <rect>
+      <x>738</x>
+      <y>393</y>
+      <width>291</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CPUType">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>540</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_SystemVersion">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>670</y>
+      <width>331</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_process">
+    <property name="geometry">
+     <rect>
+      <x>1380</x>
+      <y>120</y>
+      <width>491</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1976</width>
+     <height>48</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
