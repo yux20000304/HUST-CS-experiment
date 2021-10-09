@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/5/8 22:39:17。
+     1>项目“C:\Users\WidenSun\Desktop\vs_asm\lab8\lab8\lab8.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\lab8.tlog\unsuccessfulbuild”执行 Touch 任务。
+       _MASM:
+         Assembling demo.asm...
+         cmd.exe /C "C:\Users\WidenSun\AppData\Local\Temp\tmp61df04c244ba4f6fb8647a5ff879779a.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\demo.obj" /W3 /errorReport:prompt  /Tademo.asm
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WidenSun\Desktop\vs_asm\lab8\Debug\lab8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WidenSun\Desktop\vs_asm\lab8\Debug\lab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WidenSun\Desktop\vs_asm\lab8\Debug\lab8.lib" /MACHINE:X86 Debug\main.obj
+         Debug\demo.obj
+         lab8.vcxproj -> C:\Users\WidenSun\Desktop\vs_asm\lab8\Debug\lab8.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\lab8.tlog\unsuccessfulbuild”。
+         正在对“Debug\lab8.tlog\lab8.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\WidenSun\Desktop\vs_asm\lab8\lab8\lab8.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.78
