@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/WidenSun/Desktop/verilog/实验2/lab2/lab2.srcs/sources_1/new/decoder_38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/WidenSun/Desktop/verilog/实验2/lab2/lab2.srcs/sources_1/new/three_choose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module three_choose
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/WidenSun/Desktop/verilog/实验2/lab2/lab2.srcs/sources_1/new/lab2_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/WidenSun/Desktop/verilog/实验2/lab2/lab2.srcs/sim_1/new/testbench_decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/WidenSun/Desktop/verilog/实验2/lab2/lab2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
